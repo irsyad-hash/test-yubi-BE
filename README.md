@@ -31,11 +31,11 @@ Backend project sales order menggunakan PHP (Laravel) dan MySQL sebagai database
         ```
     - Atur detail koneksi database:
         ```env
-        DB_HOST=127.0.0.1
-        DB_PORT=3306
-        DB_DATABASE=yubi_db
-        DB_USERNAME=root
-        DB_PASSWORD=
+        DB_HOST=[DB host]
+        DB_PORT=[DB port]
+        DB_DATABASE=[your DB]
+        DB_USERNAME=[username DB]
+        DB_PASSWORD=[password DB]
         ```
 
 4. **Jalankan migrasi**
@@ -57,11 +57,11 @@ Contoh konfigurasi:
 
 ```env
 DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=yubi_db
-DB_USERNAME=root
-DB_PASSWORD=
+DB_HOST=[DB host]
+DB_PORT=[DB port]
+DB_DATABASE=[your DB]
+DB_USERNAME=[username DB]
+DB_PASSWORD=[password DB]
 ```
 
 ## Screenshoot
